@@ -1,0 +1,286 @@
+[
+  {
+    "id": "audit-readiness-control-evidence",
+    "title": "SOC 2 + ISO/IEC 27001 Control-to-Evidence & Audit Readiness System",
+    "shortTitle": "Audit Readiness Control System",
+    "type": "Case Study",
+    "domains": ["Audit Readiness", "Controls", "Security Compliance"],
+    "featured": true,
+    "status": "Portfolio System",
+    "summary": "A decision-oriented control and evidence workflow that turns fragmented audit preparation into a traceable readiness view.",
+    "outcome": "Shows how requirements, evidence, gaps, remediation owners, and management conclusions can be connected in one review path.",
+    "problem": "Audit preparation often becomes a document-chasing exercise with weak ownership, inconsistent evidence quality, and limited executive visibility.",
+    "assessment": [
+      "Define a scoped control inventory and evidence expectations.",
+      "Map controls across SOC 2, ISO/IEC 27001, and selected NIST CSF concepts.",
+      "Assess evidence completeness, recency, ownership, and reviewability.",
+      "Separate design-effectiveness gaps from operating-effectiveness gaps."
+    ],
+    "evidence": [
+      "Control matrix and framework crosswalk",
+      "Evidence request register and evidence-status tracker",
+      "Readiness findings and remediation register",
+      "Executive readiness summary and decision log"
+    ],
+    "findings": [
+      "Highlights missing or weak evidence instead of treating document presence as control effectiveness.",
+      "Makes overdue remediation and control-owner dependency visible.",
+      "Creates a consistent path from requirement to management conclusion."
+    ],
+    "remediation": [
+      "Prioritize control gaps by business impact and audit dependency.",
+      "Assign accountable owners, target dates, and required proof.",
+      "Re-test remediated items before readiness sign-off."
+    ],
+    "decision": "Use the readiness view to decide whether the organization is ready for external assurance, conditionally ready with tracked exceptions, or requires remediation first.",
+    "frameworks": ["SOC 2", "ISO/IEC 27001", "NIST CSF"],
+    "tools": ["Control Matrix", "Evidence Register", "Risk Register", "Executive Summary"],
+    "actions": {
+      "caseStudy": "project.html?id=audit-readiness-control-evidence",
+      "repo": "https://github.com/alaina-yn/alaina-yn-projects/tree/main/projects/audit-readiness-control-evidence"
+    }
+  },
+  {
+    "id": "third-party-risk-ai-subprocessor",
+    "title": "Enterprise Third-Party Risk & AI Subprocessor Decision Engine",
+    "shortTitle": "Third-Party Risk Decision Engine",
+    "type": "Decision Tool",
+    "domains": ["TPRM", "Vendor Risk", "AI Governance"],
+    "featured": true,
+    "status": "Portfolio System",
+    "summary": "A vendor-risk workflow that moves from intake and inherent risk to evidence review, residual risk, conditions, and approval decisions.",
+    "outcome": "Demonstrates a defensible approve, conditionally approve, or reject path with explicit evidence and remediation logic.",
+    "problem": "Vendor assessments can become long questionnaires without a clear link between evidence, business criticality, residual risk, and the final decision.",
+    "assessment": [
+      "Classify inherent risk using service criticality, data access, hosting, AI use, and operational dependency.",
+      "Request evidence proportionate to the risk tier.",
+      "Review security, privacy, continuity, contractual, and AI-subprocessor controls.",
+      "Calculate residual risk after validated safeguards and compensating controls."
+    ],
+    "evidence": [
+      "Vendor intake and inherent-risk classification",
+      "Risk-tiered questionnaire",
+      "Evidence review notes and exceptions",
+      "Residual-risk decision memo and remediation conditions"
+    ],
+    "findings": [
+      "Focuses reviewer effort on material risk instead of treating every vendor equally.",
+      "Separates unanswered questions from validated control weaknesses.",
+      "Supports documented exception handling and conditional approvals."
+    ],
+    "remediation": [
+      "Apply contractual, technical, or governance conditions to unresolved risks.",
+      "Define review frequency based on residual risk and business dependency.",
+      "Escalate risk acceptance above defined thresholds."
+    ],
+    "decision": "Produce a documented vendor disposition supported by business context, evidence quality, residual risk, and required conditions.",
+    "frameworks": ["TPRM", "GDPR Article 28", "NIST AI RMF"],
+    "tools": ["Vendor Intake", "Questionnaire", "Risk Scoring", "Decision Memo"],
+    "actions": {
+      "caseStudy": "project.html?id=third-party-risk-ai-subprocessor",
+      "repo": "https://github.com/alaina-yn/alaina-yn-projects/tree/main/projects/third-party-risk-ai-subprocessor"
+    }
+  },
+  {
+    "id": "ai-governance-operating-system",
+    "title": "AI Governance Operating System",
+    "shortTitle": "AI Governance Operating System",
+    "type": "Governance System",
+    "domains": ["AI Governance", "Risk", "Policy"],
+    "featured": true,
+    "status": "Portfolio System",
+    "summary": "A lightweight operating model for AI inventory, use-case classification, risk review, human oversight, exceptions, and governance decisions.",
+    "outcome": "Shows how AI governance can be implemented as a repeatable decision process instead of a policy-only exercise.",
+    "problem": "Organizations can accumulate AI use cases faster than governance teams can identify, classify, review, and evidence them.",
+    "assessment": [
+      "Capture AI use cases and accountable owners.",
+      "Classify risk using context, impact, data sensitivity, autonomy, and external exposure.",
+      "Map review requirements to NIST AI RMF and ISO/IEC 42001 concepts.",
+      "Define human oversight, monitoring, vendor review, and exception requirements."
+    ],
+    "evidence": [
+      "AI use-case intake and inventory",
+      "Risk-tier methodology",
+      "AI impact and vendor due-diligence review",
+      "Approval, exception, and governance decision record"
+    ],
+    "findings": [
+      "Creates a visible inventory of AI use rather than relying on policy awareness.",
+      "Routes higher-risk use cases to deeper review and approval.",
+      "Makes human oversight and evidence requirements explicit."
+    ],
+    "remediation": [
+      "Close inventory gaps and assign accountable owners.",
+      "Add missing oversight, data-use restrictions, monitoring, or vendor controls.",
+      "Track approved exceptions with review dates and owners."
+    ],
+    "decision": "Approve, approve with conditions, defer, or reject an AI use case using a documented and repeatable governance path.",
+    "frameworks": ["NIST AI RMF", "ISO/IEC 42001", "Responsible AI Governance"],
+    "tools": ["AI Inventory", "Risk Tiering", "Impact Assessment", "Exception Workflow"],
+    "actions": {
+      "caseStudy": "project.html?id=ai-governance-operating-system",
+      "repo": "https://github.com/alaina-yn/alaina-yn-projects/tree/main/projects/ai-governance-operating-system"
+    }
+  },
+  {
+    "id": "enterprise-trust-customer-assurance",
+    "title": "Enterprise Trust & Customer Assurance Architecture",
+    "shortTitle": "Trust & Customer Assurance Architecture",
+    "type": "Operating Model",
+    "domains": ["Security Assurance", "Customer Trust", "Compliance"],
+    "featured": false,
+    "status": "Portfolio System",
+    "summary": "A reusable assurance model for customer security reviews, evidence packaging, framework responses, and trust decisions.",
+    "outcome": "Connects control evidence to customer assurance so repeated questionnaires can be answered consistently and defensibly.",
+    "problem": "Security questionnaires and procurement reviews often duplicate work because answers, control evidence, ownership, and approved language are scattered.",
+    "assessment": ["Classify assurance requests by topic and materiality.", "Map approved responses to underlying controls and evidence.", "Define escalation rules for unsupported or sensitive claims."],
+    "evidence": ["Approved answer library", "Control-to-answer mapping", "Evidence references", "Escalation and review log"],
+    "findings": ["Reduces inconsistent assurance language.", "Surfaces claims that lack supporting evidence.", "Creates clearer ownership for high-risk responses."],
+    "remediation": ["Refresh stale answers and evidence.", "Route unsupported commitments for legal/security review.", "Maintain review dates and accountable owners."],
+    "decision": "Release assurance responses only when the underlying claim is supported, approved, and appropriate for the requester.",
+    "frameworks": ["SOC 2", "ISO/IEC 27001", "GDPR", "AI Governance"],
+    "tools": ["Response Library", "Evidence Map", "Review Workflow"],
+    "actions": {
+      "caseStudy": "project.html?id=enterprise-trust-customer-assurance",
+      "repo": "https://github.com/alaina-yn/alaina-yn-projects/tree/main/projects/enterprise-trust-customer-assurance"
+    }
+  },
+  {
+    "id": "executive-technology-risk-kri",
+    "title": "Executive Technology Risk, KRI & Board Decision System",
+    "shortTitle": "Executive Technology Risk System",
+    "type": "Executive Reporting",
+    "domains": ["Technology Risk", "KRI", "Governance Reporting"],
+    "featured": false,
+    "status": "Portfolio System",
+    "summary": "An executive reporting model that converts risk register data into concise decision-ready themes, KRIs, ownership, and escalation paths.",
+    "outcome": "Demonstrates how governance reporting can focus on decisions and thresholds rather than raw issue counts.",
+    "problem": "Risk reporting often overwhelms executives with detail while hiding trend, ownership, appetite breaches, and the decision required.",
+    "assessment": ["Define material risk themes and appetite thresholds.", "Select leading and lagging KRIs.", "Separate operational metrics from governance decisions."],
+    "evidence": ["Risk register", "KRI definitions", "Threshold logic", "Executive decision log"],
+    "findings": ["Makes risk appetite breaches visible.", "Separates information-only items from decision-required items.", "Connects trends to accountable owners."],
+    "remediation": ["Escalate threshold breaches.", "Retire metrics that do not change decisions.", "Track management actions and due dates."],
+    "decision": "Use risk appetite, trend, exposure, and remediation confidence to prioritize management action and escalation.",
+    "frameworks": ["COSO ERM", "NIST CSF", "Technology Risk"],
+    "tools": ["Risk Register", "KRI Catalogue", "Executive Dashboard"],
+    "actions": {
+      "caseStudy": "project.html?id=executive-technology-risk-kri",
+      "repo": "https://github.com/alaina-yn/alaina-yn-projects/tree/main/projects/executive-technology-risk-kri"
+    }
+  },
+  {
+    "id": "eu-ai-act-transparency",
+    "title": "EU AI Act Article 50 Transparency & Synthetic Content Governance System",
+    "shortTitle": "AI Transparency Governance System",
+    "type": "Regulatory Workflow",
+    "domains": ["AI Governance", "Transparency", "Regulatory Mapping"],
+    "featured": false,
+    "status": "Portfolio System",
+    "summary": "A governance workflow for identifying transparency obligations, synthetic-content controls, ownership, evidence, and exceptions.",
+    "outcome": "Shows how a regulatory obligation can be translated into operational controls, evidence, and accountable review steps.",
+    "problem": "Transparency obligations can remain in legal summaries without becoming testable operational requirements.",
+    "assessment": ["Classify covered AI interactions and content types.", "Map transparency requirements to product and governance controls.", "Define evidence and exception requirements."],
+    "evidence": ["Applicability assessment", "Transparency control map", "Disclosure evidence", "Exception record"],
+    "findings": ["Identifies missing disclosures or ownership.", "Separates applicability uncertainty from control failure.", "Creates a reviewable compliance trail."],
+    "remediation": ["Add required disclosures and control owners.", "Create review checkpoints for changed AI features.", "Track exceptions with expiry and approval."],
+    "decision": "Determine whether the use case meets the applicable transparency requirements or requires remediation before release.",
+    "frameworks": ["EU AI Act", "NIST AI RMF", "ISO/IEC 42001"],
+    "tools": ["Applicability Matrix", "Control Map", "Evidence Register"],
+    "actions": {
+      "caseStudy": "project.html?id=eu-ai-act-transparency",
+      "repo": "https://github.com/alaina-yn/alaina-yn-projects/tree/main/projects/eu-ai-act-transparency"
+    }
+  },
+  {
+    "id": "shadow-ai-prompt-dlp",
+    "title": "Enterprise Shadow AI, Prompt DLP & AI Data-Egress Governance",
+    "shortTitle": "Shadow AI & Data-Egress Governance",
+    "type": "Risk Control Model",
+    "domains": ["AI Governance", "Data Protection", "Shadow AI"],
+    "featured": false,
+    "status": "Portfolio System",
+    "summary": "A governance model for identifying unsanctioned AI use, classifying prompt/data-egress risk, and routing exceptions and remediation.",
+    "outcome": "Connects policy, inventory, data sensitivity, user behavior, and exception governance into a practical control model.",
+    "problem": "AI tools can create unmanaged data-egress paths when users adopt services outside approved workflows.",
+    "assessment": ["Classify AI tools and data types.", "Define permitted, restricted, and prohibited usage patterns.", "Map policy violations to governance and technical control options."],
+    "evidence": ["AI tool inventory", "Data-classification mapping", "Exception workflow", "Governance review log"],
+    "findings": ["Makes shadow AI exposure visible.", "Differentiates low-risk experimentation from sensitive-data egress.", "Creates accountable exception handling."],
+    "remediation": ["Move use cases to approved services.", "Apply data-handling restrictions and user guidance.", "Review repeated exceptions for root-cause fixes."],
+    "decision": "Permit, restrict, migrate, or stop an AI usage pattern based on data sensitivity, business need, and available safeguards.",
+    "frameworks": ["NIST AI RMF", "ISO/IEC 42001", "Data Governance"],
+    "tools": ["AI Inventory", "Data Classification", "Exception Register"],
+    "actions": {
+      "caseStudy": "project.html?id=shadow-ai-prompt-dlp",
+      "repo": "https://github.com/alaina-yn/alaina-yn-projects/tree/main/projects/shadow-ai-prompt-dlp"
+    }
+  },
+  {
+    "id": "security-questionnaire-procurement",
+    "title": "Enterprise Security Questionnaire & Procurement Triage Automation",
+    "shortTitle": "Security Questionnaire Triage System",
+    "type": "Assurance Workflow",
+    "domains": ["Security Assurance", "Procurement", "Controls"],
+    "featured": false,
+    "status": "Portfolio System",
+    "summary": "A triage and response workflow that prioritizes security questionnaires, reuses approved evidence, and escalates unsupported claims.",
+    "outcome": "Demonstrates how assurance work can become faster without lowering the evidence standard or over-automating judgment.",
+    "problem": "Questionnaire work scales poorly when every request is handled from scratch and response ownership is unclear.",
+    "assessment": ["Classify question topics and risk.", "Match questions to approved answers and evidence.", "Escalate commitments or unsupported claims."],
+    "evidence": ["Question taxonomy", "Approved response library", "Evidence links", "Escalation record"],
+    "findings": ["Improves consistency across repeated questions.", "Prevents unsupported commitments from being released.", "Keeps reviewer attention on material exceptions."],
+    "remediation": ["Refresh stale evidence.", "Assign owners to unanswered control areas.", "Convert recurring questions into reusable approved content."],
+    "decision": "Release, revise, or escalate a response based on supportability, sensitivity, and approval requirements.",
+    "frameworks": ["SOC 2", "ISO/IEC 27001", "Customer Assurance"],
+    "tools": ["Question Taxonomy", "Response Library", "Evidence Map"],
+    "actions": {
+      "caseStudy": "project.html?id=security-questionnaire-procurement",
+      "repo": "https://github.com/alaina-yn/alaina-yn-projects/tree/main/projects/security-questionnaire-procurement"
+    }
+  },
+  {
+    "id": "gdpr-article-28-subprocessor",
+    "title": "GDPR Article 28 DPA & Subprocessor Governance Engine",
+    "shortTitle": "DPA & Subprocessor Governance Engine",
+    "type": "Privacy Governance",
+    "domains": ["Privacy", "Third-Party Risk", "GDPR"],
+    "featured": false,
+    "status": "Portfolio System",
+    "summary": "A structured review path for processor obligations, DPA terms, subprocessors, evidence, exceptions, and approval conditions.",
+    "outcome": "Shows how privacy requirements can be converted into repeatable vendor governance decisions and evidence records.",
+    "problem": "DPA and subprocessor reviews can become legal-document exercises without clear linkage to vendor risk, evidence, and operational follow-up.",
+    "assessment": ["Review processor-role context and data categories.", "Assess DPA requirements and subprocessor controls.", "Track material exceptions and remediation conditions."],
+    "evidence": ["DPA review matrix", "Subprocessor inventory", "Vendor evidence", "Approval and exception record"],
+    "findings": ["Makes contractual and operational gaps visible together.", "Improves traceability of subprocessor review.", "Supports conditional approval with tracked actions."],
+    "remediation": ["Resolve material contract gaps.", "Obtain missing subprocessor or security evidence.", "Set reassessment triggers for material changes."],
+    "decision": "Approve the processing relationship, approve with conditions, or escalate unresolved privacy and vendor-risk issues.",
+    "frameworks": ["GDPR Article 28", "Privacy Governance", "TPRM"],
+    "tools": ["DPA Matrix", "Subprocessor Register", "Exception Log"],
+    "actions": {
+      "caseStudy": "project.html?id=gdpr-article-28-subprocessor",
+      "repo": "https://github.com/alaina-yn/alaina-yn-projects/tree/main/projects/gdpr-article-28-subprocessor"
+    }
+  },
+  {
+    "id": "continuous-control-monitoring-remediation",
+    "title": "Continuous Control Monitoring, Audit Operations & Remediation System",
+    "shortTitle": "Continuous Control & Remediation System",
+    "type": "Control Operations",
+    "domains": ["Continuous Compliance", "Controls", "Remediation"],
+    "featured": false,
+    "status": "Portfolio System",
+    "summary": "A monitoring and remediation operating model for control status, evidence freshness, exceptions, findings, and management follow-through.",
+    "outcome": "Demonstrates how periodic audit work can become a recurring governance rhythm without pretending every control can be fully automated.",
+    "problem": "Point-in-time audit preparation creates stale evidence, late remediation, and limited visibility into control drift between reviews.",
+    "assessment": ["Define control monitoring cadence by risk and evidence type.", "Track evidence freshness and exception status.", "Route failures to remediation owners and governance review."],
+    "evidence": ["Control-status register", "Evidence freshness log", "Findings queue", "Remediation and retest record"],
+    "findings": ["Surfaces stale or missing evidence earlier.", "Keeps findings connected to accountable remediation.", "Supports recurring management review rather than audit-season cleanup."],
+    "remediation": ["Prioritize material control failures.", "Set due dates and retest criteria.", "Escalate overdue or repeatedly failing controls."],
+    "decision": "Use recurring control status and remediation confidence to decide where management attention and assurance effort are required.",
+    "frameworks": ["SOC 2", "ISO/IEC 27001", "Continuous Compliance"],
+    "tools": ["Control Register", "Evidence Tracker", "Remediation Queue"],
+    "actions": {
+      "caseStudy": "project.html?id=continuous-control-monitoring-remediation",
+      "repo": "https://github.com/alaina-yn/alaina-yn-projects/tree/main/projects/continuous-control-monitoring-remediation"
+    }
+  }
+]
